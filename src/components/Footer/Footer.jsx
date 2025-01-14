@@ -296,33 +296,13 @@ const Footer = () => {
       </Container>
       {/* Copyright */}
       <hr className="w-full border-gray-800 my-4" />
-      <Typography variant="body2" className=" text-center text-gray-600">
+      <div className="bg-gray-800 text-center text-white py-4">
+      <p className="text-sm">&copy; Jashim Uddin 2024</p>
+    </div>
+      {/* <Typography variant="body2" className=" text-center text-gray-600">
         {i18n.t("footer.copyrights")}
-      </Typography>
-      {/* <Snackbar
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-        open={open}
-        autoHideDuration={6000}
-        onClose={() => setOpen(false)}
-      >
-        {success ? (
-          <Alert
-            onClose={() => setOpen(false)}
-            severity="success"
-            sx={{ width: "100%" }}
-          >
-            {success}
-          </Alert>
-        ) : (
-          <Alert
-            onClose={() => setOpen(false)}
-            severity="error"
-            sx={{ width: "100%" }}
-          >
-            {error}
-          </Alert>
-        )}
-      </Snackbar> */}
+      </Typography> */}
+   
     </footer>
   );
 };
