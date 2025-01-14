@@ -297,7 +297,7 @@ const Footer = () => {
       {/* Copyright */}
       <hr className="w-full border-gray-800 my-4" />
       <div className="bg-gray-800 text-center text-white py-4">
-      <p className="text-sm">&copy; Jashim Uddin 2024</p>
+      <p className="text-sm">&copy; Creadted By Jashim Uddin 2024</p>
     </div>
       {/* <Typography variant="body2" className=" text-center text-gray-600">
         {i18n.t("footer.copyrights")}
